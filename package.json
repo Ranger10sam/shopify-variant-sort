@@ -1,0 +1,14 @@
+{
+  "name": "shopify-variant-sorter",
+  "version": "1.0.0",
+  "description": "Sorts Shopify product variants and images by sales count for a specific collection.",
+  "main": "sort-variants.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sort-variants.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "csv-parse": "^5.5.6"
+  }
+}
